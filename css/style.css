@@ -1,0 +1,60 @@
+body{
+
+    padding: 0;
+}
+
+nav{
+    background: transparent;
+    border-radius: 0 0 0 65px;
+}
+.navbar-nav .nav-item button{
+    outline: none;
+    box-shadow: none;
+    color: white;
+}
+.intro{
+    position: relative;
+    border-radius: 0 0 0 65px;
+    background: url('../images/bg-pattern-intro-desktop.svg') 28vw no-repeat, linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    background-size: cover;
+    padding: 10rem 5rem 5rem 5rem;
+}
+#hov,#hovTow:hover{
+    color:  hsl(353, 100%, 62%);
+    background-color: #fff;
+}
+#hov:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.about{
+    background: url('../images/illustration-editor-desktop.svg') no-repeat;
+    background-size:calc(980px - 210px);
+    background-position-x:60vw;
+    
+}
+.work{
+    background:url('../images/bg-pattern-circles.svg') -20vw -70vh no-repeat, linear-gradient(90deg , hsl(237, 17%, 21%),hsl(237, 23%, 32%));
+    border-radius: 0% 65px 0 65px ;
+
+}
+.work img {
+    transform: translate(0px, -120px);
+    text-shadow: 10px 10px 10px black;
+}
+.tools{
+    background:url('../images/illustration-laptop-desktop.svg') -20vw no-repeat;
+    background-size: contain;
+}
+footer{
+    background-color: hsl(240, 10%, 16%);
+    color: #fff;
+    border-radius: 0 65px 0 0 ;
+}
+footer ul {
+    list-style: none;
+}
+footer ul li{
+    color: rgb(125,125, 125);
+}
