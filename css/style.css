@@ -32,7 +32,9 @@ nav{
     background: url('../images/illustration-editor-desktop.svg') no-repeat;
     background-size:calc(980px - 210px);
     background-position-x:60vw;
-    
+}
+#aboutImg{
+    display: none;
 }
 .work{
     background:url('../images/bg-pattern-circles.svg') -20vw -70vh no-repeat, linear-gradient(90deg , hsl(237, 17%, 21%),hsl(237, 23%, 32%));
@@ -42,6 +44,8 @@ nav{
 .work img {
     transform: translate(0px, -120px);
     text-shadow: 10px 10px 10px black;
+    position: absolute;
+    
 }
 .tools{
     background:url('../images/illustration-laptop-desktop.svg') -20vw no-repeat;
@@ -57,4 +61,30 @@ footer ul {
 }
 footer ul li{
     color: rgb(125,125, 125);
+}
+@media screen and (max-width: 990px) {
+    .about{
+        background:none;text-align: center;
+    }
+    #aboutImg{
+        display:inherit;
+    }
+    .work img {
+        position: relative;
+        width: auto;
+        height: 50vw;
+        margin: -5vh;
+    }
+    .work {
+        text-align: center;
+    }
+    .tools{
+        background:none;text-align: center;
+    }
+}
+@media screen and (max-width: 500px) {
+    body{
+        text-align: center;
+    }
+    
 }
