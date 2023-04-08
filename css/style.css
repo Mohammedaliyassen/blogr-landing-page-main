@@ -86,5 +86,10 @@ footer ul li{
     body{
         text-align: center;
     }
-    
+    .work img {
+        position: relative;
+        width: auto;
+        height: 80vw;
+        margin: -10vh;
+    }
 }
